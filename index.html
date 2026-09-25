@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      script-src 'self' 'wasm-unsafe-eval';
+      worker-src 'self' blob:;
+      connect-src 'self';
+      img-src 'self' blob: data:;
+      style-src 'self';
+      object-src 'none'; base-uri 'none'; form-action 'none'">
+    <meta name="referrer" content="no-referrer">
+    <title>photolock</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <main id="app">
+      <header>
+        <h1>photolock</h1>
+        <p class="tagline">See what your photos leak, strip it, and resize for any platform, in the browser, with proof that nothing is uploaded.</p>
+      </header>
+      <div id="net-counter"></div>
+      <div id="pro-panel"></div>
+      <div id="dropzone"></div>
+      <div id="grid"></div>
+      <div id="leak-panel"></div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

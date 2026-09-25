@@ -1,0 +1,38 @@
+.leak-panel__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.leak-panel__table th,
+.leak-panel__table td {
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  text-align: left;
+}
+
+.leak-panel__severity-high {
+  color: #b00020;
+  font-weight: bold;
+}
+
+.leak-panel__severity-medium {
+  color: #a15c00;
+}
+
+.leak-panel__severity-low {
+  color: #444;
+}
+
+.leak-panel__gps {
+  font-weight: bold;
+}
+
+.leak-panel__thumbnail-warning {
+  color: #b00020;
+  font-weight: bold;
+}
+
+.leak-panel__thumbnail-image {
+  max-width: 160px;
+  display: block;
+}

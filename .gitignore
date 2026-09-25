@@ -1,0 +1,8 @@
+node_modules/
+dist/
+dist-offline/
+.keys/
+.env*
+.serena/
+.claude/*.local*
+coverage/

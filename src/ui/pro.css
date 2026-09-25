@@ -1,0 +1,33 @@
+.photolock-pro-panel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.photolock-pro-status {
+  font-weight: 600;
+  margin: 0;
+}
+
+.photolock-pro-input {
+  flex: 1 1 16rem;
+}
+
+.photolock-redact-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.photolock-redact-note {
+  font-size: 0.85rem;
+  color: #555;
+  margin: 0;
+}
+
+.photolock-redact-canvas {
+  border: 1px solid #ccc;
+  touch-action: none;
+  max-width: 100%;
+}

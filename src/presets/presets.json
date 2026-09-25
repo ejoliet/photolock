@@ -1,0 +1,61 @@
+[
+  {
+    "id": "square-1080",
+    "platform": "generic",
+    "label": "Square (1080x1080)",
+    "width": 1080,
+    "height": 1080,
+    "fit": "cover",
+    "format": "jpeg",
+    "quality": 85,
+    "lastVerified": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "portrait-1080x1350",
+    "platform": "generic",
+    "label": "Portrait (1080x1350)",
+    "width": 1080,
+    "height": 1350,
+    "fit": "cover",
+    "format": "jpeg",
+    "quality": 85,
+    "lastVerified": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "story-1080x1920",
+    "platform": "generic",
+    "label": "Story (1080x1920)",
+    "width": 1080,
+    "height": 1920,
+    "fit": "cover",
+    "format": "jpeg",
+    "quality": 85,
+    "lastVerified": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "og-1200x630",
+    "platform": "generic",
+    "label": "Open Graph (1200x630)",
+    "width": 1200,
+    "height": 630,
+    "fit": "cover",
+    "format": "jpeg",
+    "quality": 85,
+    "lastVerified": null,
+    "sourceUrl": null
+  },
+  {
+    "id": "web-1920w",
+    "platform": "generic",
+    "label": "Web (1920 wide)",
+    "width": 1920,
+    "fit": "width-only",
+    "format": "jpeg",
+    "quality": 85,
+    "lastVerified": null,
+    "sourceUrl": null
+  }
+]
